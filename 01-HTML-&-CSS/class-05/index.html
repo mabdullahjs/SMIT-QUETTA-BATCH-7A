@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <a href="./basic.html">basic form</a>
+
+    <form>
+        <label for="firstname">firstname:</label>
+        <input type="text" placeholder="enter your firstname" id="firstname"> <br><br>
+
+        <label for="lastname">lastname:</label>
+        <input type="text" placeholder="enter your lastname" id="lastname"> <br><br>
+
+        <label for="email">email:</label>
+        <input type="email" placeholder="enter your email" id="email"> <br><br>
+
+        <label for="password">password:</label>
+        <input type="password" placeholder="enter your password" id="password"> <br><br>
+
+        <label for="age">age:</label>
+        <input type="number" placeholder="enter your age" id="age"> <br><br>
+
+        <label>Gender:</label> <br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">female</label>
+        <input type="radio" id="others" name="gender">
+        <label for="others">others</label> <br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="cricket">
+        <label for="cricket">cricket</label><br>
+        <input type="checkbox" id="eating">
+        <label for="eating">eating</label><br>
+        <input type="checkbox" id="sleeping">
+        <label for="sleeping">sleeping</label><br>
+        <input type="checkbox" id="hiking">
+        <label for="hiking">hiking</label><br>
+        <input type="checkbox" id="swimming">
+        <label for="swimming">swimming</label><br><br>
+
+        <label for="color">Fav Color:</label><br>
+        <input type="color" id="color"><br><br>
+
+        <label for="profilepic">profilepic:</label>
+        <input type="file"> <br><br>
+
+        <label for="province">province</label>
+        <select name="province" id="province">
+            <option value="sindh">sindh</option>
+            <option value="punjab">punjab</option>
+            <option value="balochistan" selected>balochistan</option>
+            <option value="Khyber Pakhtunkhwa">Khyber Pakhtunkhwa</option>
+        </select> <br><br>
+
+        <label for="bio">bio:</label> <br>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+    </form>
+</body>
+</html>
