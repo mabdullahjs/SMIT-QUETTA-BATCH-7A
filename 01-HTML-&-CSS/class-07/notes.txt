@@ -1,0 +1,8 @@
+internal
+external 
+inline
+
+
+h1 == > selector
+color: property
+white value

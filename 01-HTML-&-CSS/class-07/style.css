@@ -1,0 +1,62 @@
+/* h1 {
+  background-color: red;
+  color: white;
+} */
+
+/* *{
+    color: red;
+} */
+
+
+/* type selector */
+
+/* h1 , p {
+    color: red;
+}
+ */
+
+
+
+ /* id selector */
+
+/* 
+ #heading-one{
+    color: red;
+ }
+ #heading-two{
+    color: rebeccapurple;
+ } */
+
+
+/* class selector */
+/* .text-red {
+    color: red;
+} */
+
+
+/* child selector */
+
+/* .parent > p {
+    color: red;
+} */
+
+
+/* descendant selector */
+
+/* .parent p {
+    color: red;
+} */
+
+
+/* adjacent sibling */
+
+/* h2 + p {
+    color: red;
+} */
+
+/* general sibling */
+
+
+h2 ~ p {
+    color: red;
+}
