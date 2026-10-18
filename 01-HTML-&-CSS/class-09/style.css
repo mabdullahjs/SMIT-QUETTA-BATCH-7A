@@ -1,14 +1,11 @@
 /* units */
 
-
 /* relative unit
 %
 rem
 
 
 */
-
-
 
 /* absolute unit 
 
@@ -32,14 +29,11 @@ vh
     width: 60vw;
 } */
 
-
-
 /* h1 = 32px */
 /* p = 16px */
 
 /* 1rem == 16px */
 /* h1 == 2rem */
-
 
 /* 1 rem == 10px  */
 /* 100% === 16px */
@@ -59,8 +53,36 @@ p {
     font-size: 1rem;
 } */
 
-
-
 /* width % */
 /* px border, radius */
 /* rem font size */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Asap+Sharp:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: "Asap Sharp", sans-serif;
+} */
+
+@font-face {
+  font-family: Lato;
+  src: url("./assets/fonts/Lato-Regular.ttf");
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+.para{
+    /* font-weight: normal; */
+    /* font-style: oblique; */
+    /* text-transform: capitalize; */
+    /* text-transform:lowercase; */
+    /* text-transform:uppercase; */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* line-height: 3rem;  */
+    /* word-spacing: 1.5rem; */
+    /* letter-spacing: 0.5rem; */
+    /* text-align: justify; */
+}
