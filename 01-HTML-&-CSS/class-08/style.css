@@ -1,0 +1,56 @@
+/* !important > inline styling > id selector > class selector > type selector > universal selector */
+
+/* precendence */
+
+/* #head-one {
+    color: aqua;
+}
+
+.heading {
+    color: greenyellow !important;
+
+}
+
+h1 {
+    color: blue;
+}
+
+* {
+    color: red;
+} */
+
+/* color — text color
+
+font-family — font style
+
+font-size — text size
+
+font-weight — text thickness
+
+line-height — spacing between lines
+
+text-align — text alignment */
+
+/* div {
+  color: red;
+  border: 1px solid black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+
+div {
+    border: 2px solid black;
+
+    background-color: rgba(0, 158, 217 , 0.1);
+    /* opacity: 1; */
+}
+
+.first{
+    background-color: #2982c5;
+}
+.second{
+    background-color: #72c1ec;
+}
+.third{
+    background-color: #8dcaed;
+}
