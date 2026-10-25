@@ -1,0 +1,95 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+} */
+
+/* top, left, bottom , right */
+
+/* h1 {
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+
+    border: 5px solid black;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+
+    margin: 20px;
+    padding: 20px 30px 25px 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    width: 500px;
+    box-sizing: border-box;
+
+} */
+/* 
+h1 {
+    margin: 20px ;
+    border: 2px solid black;
+
+
+    min-width: 300px;
+    max-width: 700px;
+}
+
+p {
+    border: 2px solid black;
+    margin: 10px ;
+    padding: 5px;
+
+    height: 400px;
+
+    overflow: scroll;
+} */
+
+/* div {
+    text-align: center;
+} */
+
+/* img {
+    display: block;
+    margin: 0 auto;
+} */
+
+/* display
+
+block
+inline
+inline-block
+hidden
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+    border: 1px solid red;
+}
+
+h1 {
+    display: inline;
+}
+
+a {
+    display: block;
+}
+
+p {
+    /* display: none; */
+    visibility: hidden;
+}
+
+/* inline ma width kaam nahi krti or margin / padding top or bottom sa kaam nahi krta. */
+
+
+/* img {
+    width: ;
+} */
