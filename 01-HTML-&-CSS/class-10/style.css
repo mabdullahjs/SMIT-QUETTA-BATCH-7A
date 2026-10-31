@@ -6,11 +6,11 @@
 
 html {
     font-size: 62.5%;
-} */
+} 
 
-/* top, left, bottom , right */
+ top, left, bottom , right 
 
-/* h1 {
+ h1 {
     border-bottom: 5px solid black;
     border-right: 5px solid black;
 
@@ -27,8 +27,8 @@ html {
     width: 500px;
     box-sizing: border-box;
 
-} */
-/* 
+} 
+ 
 h1 {
     margin: 20px ;
     border: 2px solid black;
@@ -46,18 +46,18 @@ p {
     height: 400px;
 
     overflow: scroll;
-} */
+} 
 
-/* div {
+ div {
     text-align: center;
-} */
+} 
 
-/* img {
+ img {
     display: block;
     margin: 0 auto;
-} */
+} 
 
-/* display
+ display
 
 block
 inline
@@ -65,7 +65,7 @@ inline-block
 hidden
 
 
-*/
+
 
 *{
     margin: 0;
@@ -83,13 +83,29 @@ a {
 }
 
 p {
-    /* display: none; */
+     display: none; 
     visibility: hidden;
 }
 
-/* inline ma width kaam nahi krti or margin / padding top or bottom sa kaam nahi krta. */
+ inline ma width kaam nahi krti or margin / padding top or bottom sa kaam nahi krta. 
 
 
-/* img {
+ img {
     width: ;
-} */
+}  */
+
+h1 {
+  /* border: 10px solid transparent; */
+  padding: 20px;
+  margin: 20px;
+
+  border-radius: 182px 200px 53px 53px;
+  -webkit-border-radius: 182px 200px 53px 53px;
+  -moz-border-radius: 182px 200px 53px 53px;
+  border: 17px solid #ff6550;
+
+  /* border-image: url('./assets/border.png') 30 stretch; */
+  box-shadow: -11px 20px 12px 4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -11px 20px 12px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -11px 20px 12px 4px rgba(0, 0, 0, 0.75);
+}
