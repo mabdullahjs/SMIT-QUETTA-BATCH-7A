@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+/* positions
+static
+relative
+absolute
+fixed
+sticky
+
+
+
+*/
+
+.container {
+    width: 300px;
+    height: 200vh;
+    border: 1px solid black;
+
+    margin: 40px auto;
+    margin-bottom: 400vh;
+}
+
+.children {
+    width: 100px;
+    height: 100px;
+}
+
+/* top left bottom right */
+
+#red {
+    background-color: red;
+
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+#green {
+    background-color: green;
+
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    /* z-index: 1; */
+}
+#blue {
+    background-color: blue;
+
+    position: fixed;
+    top: 10px;
+
+
+}
+
+#purple {
+    background-color: lightcoral;
+
+    position: sticky;
+    top: 100px;
+
+}
+
+
+/* layouting */
+
+
+/* 
+float
+flexbox
+grid
+
+
+
+*/
