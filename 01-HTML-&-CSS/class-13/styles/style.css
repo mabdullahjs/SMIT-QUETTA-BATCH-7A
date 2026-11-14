@@ -1,0 +1,38 @@
+.container {
+    height: 80vh;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    padding: 20px;
+
+    /* display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: 100px 200px 100px;
+    grid-auto-rows: 100px;
+
+    gap: 20px; */
+
+
+
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    /* justify-content: space-around;
+    align-items: center;
+    align-content: center; */
+    gap: 10px;
+}
+
+.children {
+    border: 1px solid red;
+}
+
+#box-1 {
+    /* align-self: center; */
+    grid-column: 1 / 3;
+}
+
+#box-3 {
+    /* justify-self: center; */
+    grid-row: 2 / 4;
+}
+
+/* float , flexbox , grid */
